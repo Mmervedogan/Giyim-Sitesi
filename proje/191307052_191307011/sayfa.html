@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+   
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/sayfa.css" />
+   
+      
+      
+      
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+      <img src="images/lvlogobeyaz.jpg" width="150" height="100">
+      </div>
+        <ul>
+          <li><i class="bx bx-chevron-right"></i> <a href="sayfa.html">HOME</a></li>
+      <li><a href="#">ALL</a>
+      <div class="nav-1">
+          <ul>
+              <li><a href="#">JEWELRY</a></li>
+              <li><a href="#">CLOTHES</a></li>
+              <li><a href="#">BAG</a></li>
+              <li><a href="#">SHOES</a></li>
+          </ul>
+      </div>
+      </li>
+      <li><i class="bx bx-chevron-right"></i> <a href="form.html">CONTACT US</a></li>
+      <li><i class="bx bx-chevron-right"></i> <a href="hakkimizda.html">ABOUT LV</a></li>
+      <li><i class="bx bx-chevron-right"></i> <a href="misyon-vizyon.html">MISSION-VISION</a></li>
+      <li><i class="bx bx-chevron-right"></i> <a href="giris.html">LOGIN</a></li>
+      <li><i class="bx bx-chevron-right"></i> <a href="kayit.html">SIGN UP</a></li>
+          <input type="search"  name="" placeholder="Search">
+        
+        </ul>
+        </nav>
+        
+ 
+        <div class="slideshow-container">
+        <h2>LOUIS VUITTON NEW SEASON COLLECTION</h2>
+          
+          <div class="mySlides fade">
+            
+            <img src="images/lvbts2new.jpg" style="width:1525px; height:600px">
+            
+          </div>
+        
+          <div class="mySlides fade">
+            
+            <img src="images/vslider.jpg" style="width: 1525px;height:600px">
+            
+          </div>
+        
+          <div class="mySlides fade">
+            <a href="urun.html">
+            <img src="images/jhopeslider.jpg" style="width: 1525px;height: 600px;">
+          </a>
+          </div>
+          </div>
+
+        
+         
+        
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        
+        <script> 
+          var slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+          </script>
+
+<video width="1520" height="500" controls="controls">
+  <source src="video/BTS x Louis Vuitton.mp4" type="video/mp4" />
+  <source src="video/BTS x Louis Vuitton.mp4" type="video/ogg" />
+</video>
+
+
+          <section class="product"> 
+            <h2 class="product-category">NEW ARRIVALS</h2>
+            <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
+            <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+            <div class="product-container">
+                <div class="product-card">
+                    <div class="product-image">
+                        
+                        <a href="urun.html">
+                        <img src="images/jhopejacket.jpg" class="product-thumb" alt="">
+                      </a>
+                        <button class="card-btn">add</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">LV WAX 3-BUTTON JACKET</h2>
+                        <p class="product-short-description"></p>
+                        <span class="price">$4000</span><span class="actual-price"></span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">10% off</span>
+                        <img src="images/lvmorshoes.jpg" class="product-thumb" alt="">
+                        <button class="card-btn">add</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">LV TRAINER SNEAKER</h2>
+                        <p class="product-short-description"></p>
+                        <span class="price">$1090</span><span class="actual-price">$1210</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                      
+                        <img src="images/jkpants.jpg" class="product-thumb" alt="">
+                        <button class="card-btn">add</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">DAMIER CIGARETTE PANTS</h2>
+                        <p class="product-short-description"></p>
+                        <span class="price">$1220</span><span class="actual-price"></span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">Low In Stock</span>
+                        <img src="images/jiminbag.jpg" class="product-thumb" alt="">
+                        <button class="card-btn">add</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">PETITE MALLE HAND BAG</h2>
+                        <p class="product-short-description"></p>
+                        <span class="price">$5500</span><span class="actual-price"></span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        
+                        <img src="images/lvchainbileklik.jpg" class="product-thumb" alt="">
+                        <button class="card-btn">add</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">LV CHAIN LINKS BRACELET</h2>
+                        <p class="product-short-description"></p>
+                        <span class="price">$1190</span><span class="actual-price"></span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        
+                        <img src="images/jkjacket.jpg" class="product-thumb" alt="">
+                        <button class="card-btn">add</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">BOXY DAMIER JACKET</h2>
+                        <p class="product-short-description"></p>
+                        <span class="price">$3700</span><span class="actual-price"></span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        
+                        <img src="images/lvboots.jpg" class="product-thumb" alt="">
+                        <button class="card-btn">add</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">PLATFORM DESERT BOOT</h2>
+                        <p class="product-short-description"></p>
+                        <span class="price">$1480</span><span class="actual-price"></span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                       
+                        <img src="images/womendress.jpg" class="product-thumb" alt="">
+                        <button class="card-btn">add</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand"> SLEEVELESS SHIRT DRESS</h2>
+                        <p class="product-short-description"></p>
+                        <span class="price">$3500</span><span class="actual-price"></span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        
+                        <img src="images/womenjacket.jpg" class="product-thumb" alt="">
+                        <button class="card-btn">add</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">GRAPHIC MARCHING BAND JACKET</h2>
+                        <p class="product-short-description"></p>
+                        <span class="price">$5400</span><span class="actual-price"></span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        
+                        <img src="images/lvsunglasses.jpg" class="product-thumb" alt="">
+                        <button class="card-btn">add</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">THE LV SQUARE SUNGLASSES</h2>
+                        <p class="product-short-description"></p>
+                        <span class="price">$665</span><span class="actual-price"></span>
+                    </div>
+                </div>
+            </div>
+          </section> 
+           <script>
+             const productContainers = [...document.querySelectorAll('.product-container')];
+          const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
+          const preBtn = [...document.querySelectorAll('.pre-btn')];
+          
+          productContainers.forEach((item, i) => {
+              let containerDimensions = item.getBoundingClientRect();
+              let containerWidth = containerDimensions.width;
+          
+              nxtBtn[i].addEventListener('click', () => {
+                  item.scrollLeft += containerWidth;
+              })
+          
+              preBtn[i].addEventListener('click', () => {
+                  item.scrollLeft -= containerWidth;
+              })
+          })
+           </script>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.4189606043283!2d12.479033715306942!3d41.90535147922003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6054f9032103%3A0x6d8857a5e7a09983!2sLouis%20Vuitton!5e0!3m2!1str!2str!4v1637846446261!5m2!1str!2str"
+ width="1520" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+ <footer>     
+  <h3>LOUIS VUITTON</h3>     
+  
+ <footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-info">
+         
+ 
+
+            <p>
+              Via dei Condotti, 13, 00187 Roma RM, Italy<br>
+              <strong>Tel:</strong> +1.453.824.44
+
+
+            </p>
+           
+          </div>
+        </div>
+
+<div class="col-lg-2 col-md-6 footer-links">
+         
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="sayfa.html">HOME</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="hakkimizda.html">ABOUT LV</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="misyon-vizyon.html">MISSION-VISION</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="form.html">CONTACT US</a></li>
+            
+
+</ul>
+        </div>
+
+       
+
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="copyright">
+      &copy; Copyright 2021 <strong><span> Duygu SARKUCU and Merve DOGAN. 
+</span></strong> All Rights Reserved.
+    </div>
+    <div class="credits">
+
+    </div>
+  </div>
+</footer>
+</footer>
+
+ <div class="slidershow middle">
+  <div class= "slides">
+    <input type="radio" name="r" id="r1" checked>
+    <input type="radio" name="r" id="r2">
+    <input type="radio" name="r" id="r3">
+    <input type="radio" name="r" id="r4">
+    <input type="radio" name="r" id="r5">
+
+    <div class="slide s1">
+      <a href="duyuru.html">
+      <img src="images/lvbtsyeni.jpg" alt="">
+    </a>
+      </div>
+      <div class="slide">
+       <img src="images/lvsale.jpg" alt="">
+       </div>
+       <div class="slide">
+         <img src="images/lol.jpg" alt="">
+         </div>
+         <div class="slide">
+           <img src="images/lvmodel.jpg" alt="">
+           </div>
+           <div class="slide">
+             <img src="images/summerpool.jpg" alt="">
+             </div>
+</div>
+<div class="navigation">
+  <label for="r1" class="bar"></label>
+  <label for="r2" class="bar"></label>
+  <label for="r3" class="bar"></label>
+  <label for="r4" class="bar"></label>
+  <label for="r5" class="bar"></label>
+</div>
+
+  </body>
+</html>

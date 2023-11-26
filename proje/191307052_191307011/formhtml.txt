@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style/form.css">
+
+  </head>
+  <body>
+        <nav>
+          <div class="logo">
+          <img src="images/lvlogobeyaz.jpg" width="150" height="100">
+          </div>
+            <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="sayfa.html">HOME</a></li>
+                <li><a href="#">ALL</a>
+                <div class="nav-1">
+                    <ul>
+                        <li><a href="#">JEWELRY</a></li>
+                        <li><a href="#">CLOTHES</a></li>
+                        <li><a href="#">BAG</a></li>
+                        <li><a href="#">SHOES</a></li>
+                    </ul>
+                </div>
+                </li>
+                <li><i class="bx bx-chevron-right"></i> <a href="form.html">CONTACT US</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="hakkimizda.html">ABOUT LV</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="misyon-vizyon.html">MISSION-VISION</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="giris.html">LOGIN</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="kayit.html">SIGN UP</a></li>
+              <input type="search"  name="" placeholder="Search">           
+            </ul>
+            </nav>
+            <div class="row" style="padding: 50px;">
+                <div class="col" align="center">
+                    <h3>CONTACT US</h3><hr><br>
+                  <font style="width: 20px; height: 5px;">CALL US</font><br><br>
+                  <font style="width: 20px; height: 5px;">+1.453.824.44</font>
+                </div>
+              </div>
+              <div class="row" style="padding: 50px;">
+                <div class="col1" >
+                  <font style="width: 20px; height: 5px;">GMAIL</font><br><br>
+                  <font style="width: 20px; height: 5px;">louisvuitton@gmail.com</font><br>
+                </div>
+              </div>
+            <br><br><br><br>
+
+            <form class="box" action="form.html" method="post">
+                <h2>Wish and Complaint Form</h2>
+                <input type="text" name="" placeholder="Title"><br><br><br>
+                <input type="text" name="" placeholder="Gmail"><br><br><br>
+                <input type="text" name="" placeholder="Explanation"><br><br><br>
+                <input type="file" name="" placeholder="Select File"><br><br>
+                <input type="submit" name="" placeholder="Send"><br><br>
+              </form>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.4189606043283!2d12.479033715306942!3d41.90535147922003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6054f9032103%3A0x6d8857a5e7a09983!2sLouis%20Vuitton!5e0!3m2!1str!2str!4v1637846446261!5m2!1str!2str" width="1500" height="500" style="border: 10px;;" allowfullscreen="" loading="lazy"></iframe><br>
+  <br><br><br><br>
+  
+          
+          <footer>     
+            <h3>LOUIS VUITTON</h3>     
+            
+           <footer id="footer">
+            <div class="footer-top">
+              <div class="container">
+                <div class="row">
+          
+                  <div class="col-lg-4 col-md-6">
+                    <div class="footer-info">
+                   
+           
+          
+                      <p>
+                        Via dei Condotti, 13, 00187 Roma RM, Italy<br>
+                        <strong>Tel:</strong> +1.453.824.44
+          
+          
+          
+                      </p>
+                     
+                    </div>
+                  </div>
+          
+          <div class="col-lg-2 col-md-6 footer-links">
+                    
+                    <ul>
+                      <li><i class="bx bx-chevron-right"></i> <a href="sayfa.html">HOME</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="hakkimizda.html">ABOUT LV</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="misyon-vizyon.html">MISSION-VISION</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="form.html">CONTACT US</a></li>
+                      
+          
+          </ul>
+                  </div>
+          
+                </div>
+              </div>
+            </div>
+          
+            <div class="container">
+              <div class="copyright">
+                &copy; Copyright 2021 <strong><span> Duygu SARKUCU and Merve DOGAN. 
+          </span></strong> All Rights Reserved.
+              </div>
+              <div class="credits">
+          
+              </div>
+            </div>
+          </footer>
+          
+       
+</body>
+</html>
